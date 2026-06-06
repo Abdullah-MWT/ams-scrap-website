@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const sora = Sora({
   variable: "--font-display",
@@ -43,6 +44,7 @@ export default function RootLayout({
         <Footer />
         <StickyMobileCTA />
         <FloatingWhatsApp />
+        <SpeedInsights />
       </body>
     </html>
   );
